@@ -1,0 +1,30 @@
+/* #canvas{
+  margin-top : 30px;
+  margin-left : 30px;
+}
+
+#next{
+  position: absolute;
+  top: 5%;
+}
+
+#next{
+  position: absolute;
+} */
+body{
+  display: flex;
+}
+
+.left{
+  float: left;
+}
+
+.container{
+  display: inline-block;
+  /* margin: 0,100px; */
+  width: 500px;
+}
+
+.next{
+
+}

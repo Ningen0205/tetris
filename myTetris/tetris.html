@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)http://teacher.pls-ys.com/js/tetris/bojects/tetris.html -->
+<html lang="ja"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="Content-Language" content="ja">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta content="text/javascript" http-equiv="Content-Script-Type">
+<meta name="description" content=""> 
+<meta name="keywords" content="">
+<title></title>
+<script type="text/javascript" src="./tetris_files/tetris.js"></script>
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript">
+// window.onload = function(){
+// 	Tetris.init("id_CVS","id_score","sound");
+// 	Tetris.start();
+// }
+const clickButton = () => {
+	Tetris.init("id_CVS","id_score","sound");
+	Tetris.start();
+}
+
+</script>
+</head>
+<body>
+<canvas id="id_CVS" width="320" height="320"></canvas>
+<br>
+[x]:RIGHT TURN<br>
+[z]:LEFT TURN<br>
+[CURSOR]:MOVE<br>
+<div id ="id_score"></div>
+<button type="button" name="start" onclick="clickButton()">Start</button>
+
+<audio id="sound" loop>
+	<source src="./tetris_files/Korobeyniki_polka.mp3">
+	<p>ご利用のブラウザではこの音声を再生できません。</p>
+</audio>
+
+
+
+</body></html>
